@@ -67,6 +67,12 @@ section {
 }
 
 
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 .intro_section {
     padding: 3rem 0 3rem;
     background-color: #401269;
