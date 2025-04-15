@@ -46,38 +46,46 @@ section {
 a {
     color: white;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+
 
 .button {
     display: inline-block;
     background-color: orange;
     color: white;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
+    padding: 1em;
     font-weight: 900;
     transition: .3s;
     border: none;
     margin-top: 10px;
     border-radius: 8px;
-    width: 80%;
+    /* width: 100%; */
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .button:hover {
     background-color: rgb(214, 145, 16);
 }
 
-.content{
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 20px;
-
+.content {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
 }
+
+.btn_data {
+    font-size: 16px;
+    font-weight: 500;
+    flex-wrap: nowrap;
+    text-transform: lowercase;
+}
+
