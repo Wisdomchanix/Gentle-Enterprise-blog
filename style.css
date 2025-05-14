@@ -9,7 +9,8 @@
 body {
     line-height: 1.6;
     font-size: 18px;
-    background-color: #195c3d;
+    /* background-color: #195c3d; */
+    background-color: black;
     font-size: 18px;
     color: #ffffff;
     padding: 20px;
@@ -59,7 +60,7 @@ a {
 
 .button {
     display: inline-block;
-    background-color: rgba(0, 255, 42, 0.568);
+    /* background-color: rgba(0, 255, 42, 0.568); */
     color: white;
     padding: 12px 20px;
     font-weight: 900;
