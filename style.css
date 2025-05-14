@@ -9,9 +9,13 @@
 body {
     line-height: 1.6;
     font-size: 18px;
-    background-color: rgb(250, 235, 209);
+    background-color: #195c3d;
     font-size: 18px;
-    padding: 10%;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 
@@ -27,6 +31,7 @@ h1 {
     font-weight: 800;
     text-align: center;
     font-size: 34px;
+    margin: 15px 0;
 }
 
 section {
@@ -37,6 +42,7 @@ section {
     max-width: 1024px;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    text-align: center;
 }
 
 .main {
@@ -53,22 +59,19 @@ a {
 
 .button {
     display: inline-block;
-    background-color: orange;
+    background-color: rgba(0, 255, 42, 0.568);
     color: white;
-    /* padding: 1rem 2rem; */
-    padding: 1em;
+    padding: 12px 20px;
     font-weight: 900;
-    transition: .3s;
-    border: none;
-    margin-top: 10px;
-    border-radius: 8px;
-    /* width: 100%; */
+    border-radius: 5px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin: 15px 0;
+    font-size: 18px;
 }
 
 .button:hover {
@@ -88,4 +91,3 @@ a {
     flex-wrap: nowrap;
     text-transform: lowercase;
 }
-
